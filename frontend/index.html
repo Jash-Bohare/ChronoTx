@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ChronoTx - Upload Contract</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>ChronoTx</h1>
+
+    <button id="connectWallet">Connect Wallet</button>
+    <p id="walletAddress">Not connected</p>
+
+    <form id="contractForm">
+      <label for="chain">Select Chain:</label>
+      <select id="chain">
+        <option value="ethereum">Ethereum</option>
+        <option value="arbitrum">Arbitrum</option>
+      </select>
+
+      <label for="bytecode">Contract Bytecode:</label>
+      <textarea id="bytecode" rows="6" placeholder="Paste bytecode here..."></textarea>
+
+      <label for="param1">Constructor Param 1:</label>
+      <input type="text" id="param1" placeholder="e.g. 0xabc123" />
+
+      <label for="param2">Constructor Param 2:</label>
+      <input type="text" id="param2" placeholder="e.g. 42" />
+
+      <button type="submit">Submit Contract</button>
+    </form>
+
+    <p id="statusMsg"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 480px;
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  color: #222;
+  text-align: center;
+}
+
+button {
+  background-color: #4a90e2;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 15px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+#walletAddress {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #555;
+  text-align: center;
+}
+
+#statusMsg {
+  margin-top: 15px;
+  font-weight: 600;
+  text-align: center;
+}
