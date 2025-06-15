@@ -108,8 +108,8 @@ ChronoTx offers a simple interface where users can:
 
 ### Frontend
 
-* **React + TailwindCSS**: UI/UX 
-* **Wagmi + RainbowKit**: Wallet Connect
+* **HTML + CSS + Vanilla JavaScript**: UI/UX (simplified from React for hackathon speed)
+* **MetaMask (window.ethereum)**: Wallet Connect (simplified from Wagmi + RainbowKit)
 * **Chart.js / Recharts**: Graph gas trends
 
 ### Backend
@@ -145,8 +145,8 @@ ChronoTx offers a simple interface where users can:
 
 #### Tasks:
 1) Frontend
-- Set up React + TailwindCSS scaffold
-- Implement Wallet Connect (Wagmi + RainbowKit)
+- Set up HTML + CSS + Vanilla JS scaffold
+- Implement Wallet Connect via MetaMask (window.ethereum)
 - UI for uploading bytecode (text input or file)
 - UI for selecting chain (Ethereum, Arbitrum)
 - UI for entering constructor params
